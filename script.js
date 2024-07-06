@@ -80,7 +80,7 @@ function cheakDraw() {
 
         if (isDraw) {
             isGameOver = true;
-            document.querySelector("#results").innerHTML = "Draw";
+            document.querySelector("#results").innerHTML = "تعادل";
             document.querySelector("#play-again").style.display = "inline";
         }
     }
